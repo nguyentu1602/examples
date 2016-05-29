@@ -46,7 +46,7 @@ hist( res, nclass = "FD")
 Acf( res )
 
 # Portmanteau tests for autocorrelation:
-Box.test(res, lag=10, fitdf=0,)
+Box.test(res, lag=10, fitdf=0 )
 Box.test(res, lag=10, fitdf=0, type = "Lj")
 
 
